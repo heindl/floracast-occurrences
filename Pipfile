@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+google-cloud = "*"
+requests = "*"
+numpy = "*"
+constants = "*"
+pandas = "*"
+python-dateutil = "*"
+pytz = "*"
+pygbif = "*"
+idigbio = "*"
+geographiclib = "*"
+google-api-python-client = "*"
+pycrypto = "*"
+pyopenssl = ">=0.11"
+earthengine-api = "*"
+firebase-admin = "*"
+
+[requires]
+python_version = "2.7"
